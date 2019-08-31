@@ -1,0 +1,189 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+html, body {
+  font-family: 'Work Sans', sans-serif;
+	height: 100vh;
+}
+
+section {
+	display: flex;
+	flex-direction: row;
+	min-height: 100%;
+	justify-content: center;
+}
+
+strong {
+  font-weight: 800;
+}
+
+h1 {
+	font-size: 3.5rem;
+	font-weight: 800;
+	text-shadow: 4px 4px #000000;
+  margin-bottom: 6%;
+	color: #ffffff;
+}
+
+h2 {
+	font-size: 3.5rem;
+	font-weight: 800;
+	text-shadow: 4px 4px #000000;
+	margin-bottom: 20%;
+	color: #ffffff;
+}
+
+p {
+	font-size: 1.2rem;
+	margin-bottom: 6%;
+	line-height: 110%;
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+  font-size: 2rem;
+}
+
+a:hover {
+	color: #000000;
+	text-shadow: 4px 4px #ffffff;
+}
+
+.writing p {
+	font-size: 1.2rem;
+}
+
+li {
+	font-weight: bold;
+	margin-bottom: 20%;
+}
+
+.portfolio-links {
+	margin-bottom: 10%;
+}
+
+.portfolio-p {
+	margin-bottom: 20%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+	background: #433A3F;
+	padding: 5%;
+  flex: 1;
+}
+
+.writing {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+	background: #F15946;
+	padding: 5%;
+	flex: 1;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+	background: #F9C22E;
+	padding: 5%;
+	flex: 1;
+}
+
+
+@media screen and (max-width: 768px){
+
+	section {
+		display: flex;
+		flex-direction: column;
+  }
+
+.title, .writing, .contact {
+    padding-bottom: 6%;
+}
+
+h1 {
+		margin-bottom: 15%;
+		text-align: center;
+}
+
+h2 {
+	margin-bottom: 15%;
+	text-align: center;
+}
+
+li {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 10%;
+}
+
+a:hover {
+	color: #000000;
+	text-shadow: 4px 4px #ffffff;
+}
+
+.portfolio-links {
+	margin-bottom: 10%;
+}
+
+.portfolio-p {
+	margin-bottom: 20%;
+}
+}
