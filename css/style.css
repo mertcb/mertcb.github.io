@@ -29,8 +29,12 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+ol {
 	list-style: none;
+}
+
+ul{
+	color: white;
 }
 blockquote, q {
 	quotes: none;
@@ -109,11 +113,11 @@ li {
 }
 
 .portfolio-links {
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 
 .portfolio-p {
-	margin-bottom: 20%;
+	margin-bottom: 10%;
 }
 
 .title {
@@ -122,7 +126,7 @@ li {
   justify-content: flex-start;
   align-items: center;
 	background: #433A3F;
-	padding: 5%;
+	padding: 2%;
   flex: 1;
 }
 
@@ -132,7 +136,7 @@ li {
   justify-content: flex-start;
   align-items: center;
 	background: #F15946;
-	padding: 5%;
+	padding: 2%;
 	flex: 1;
 }
 
@@ -142,10 +146,19 @@ li {
   justify-content: flex-start;
   align-items: center;
 	background: #F9C22E;
-	padding: 5%;
+	padding: 2%;
 	flex: 1;
 }
 
+.tech {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	  background: #20639b;
+	  padding: 2%;
+	  flex: 1;
+  }
 
 @media screen and (max-width: 768px){
 
